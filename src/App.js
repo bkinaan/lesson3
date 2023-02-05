@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import Components from "./Components";
+import Why from "./Components/Why";
+//import TVBox from './Components/TVBox';
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
           Learn React
         </a>
         <p className="brown-text">Hello!</p>
-        <Components/>
+        <Why/>
+        {/* <TVBox/> */}
 
       </header>
     </div>
